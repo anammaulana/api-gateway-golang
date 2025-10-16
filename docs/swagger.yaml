@@ -1,0 +1,24 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  description: API Gateway for Quarkus microservices (billing, engine, printing)
+  title: Go API Gateway
+  version: "1.0"
+paths:
+  /health:
+    get:
+      description: Check if the API Gateway is running
+      produces:
+      - text/plain
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Health Check
+      tags:
+      - System
+schemes:
+- http
+swagger: "2.0"

@@ -1,0 +1,11 @@
+basePath: /
+host: localhost:9099
+info:
+  contact: {}
+  description: API Gateway for Quarkus microservices (billing, engine, printing)
+  title: Go API Gateway
+  version: "1.0"
+paths: {}
+schemes:
+- http
+swagger: "2.0"

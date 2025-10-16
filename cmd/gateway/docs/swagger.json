@@ -1,0 +1,15 @@
+{
+    "schemes": [
+        "http"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "description": "API Gateway for Quarkus microservices (billing, engine, printing)",
+        "title": "Go API Gateway",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:9099",
+    "basePath": "/",
+    "paths": {}
+}
